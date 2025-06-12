@@ -80,7 +80,7 @@ require get_template_directory() . '/inc/gutenberg.php';
 /**
  * Welcome page
  */
-// LDMOD: commentato per consentire l'override della welcome page
+// (LD) modificato per consentire l'override della welcome page
 $welcome_file = get_stylesheet_directory() . '/inc/welcome.php';
 if ( ! file_exists( $welcome_file ) ) {
     $welcome_file = get_template_directory() . '/inc/welcome.php';
